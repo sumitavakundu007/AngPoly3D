@@ -2,9 +2,7 @@
 
 AngPoly3D is a Python package to calculate the angle between a reference orientation and a polyhedron orientation considering the polyhedron's point group symmetry.
 
-The calculated angle is the minimum of all angles after applying all the equivalent orientations on the orientation of a polyhedron.
-
-![formula](https://render.githubusercontent.com/render/math?math=q_{ref}^{\dagger}q_i = \exp(\dfrac{i}{2} \theta \hat{n} \dot \vec{\sigma}) = \cos(\dfrac{\theta}{2}) + i \hat{n} \dot \vec{\sigma} \sin(\dfrac{\theta}{2}))
+The calculated angle is the minimum of all angles after applying all the equivalent orientations on the orientation of a polyhedron according to the formula prescribed in the [paper](https://pubs.rsc.org/en/content/articlehtml/2019/sm/c8sm02643b) by Sharon C. Glotzer et al.
 
 Orientation of a polyhedron must be provided in [quaternion](https://en.wikipedia.org/wiki/Quaternion) format.
 
