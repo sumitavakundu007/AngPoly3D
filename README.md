@@ -4,7 +4,7 @@ AngPoly3D is a Python package to calculate the angle between a reference orienta
 
 The calculated angle is the minimum of all angles after applying all the equivalent orientations on the orientation of a polyhedron.
 
-[equation](equation.ipynb)
+[equation](https://github.com/sumitavakundu007/AngPoly3D/blob/main/equation.ipynb)
 
 Orientation of a polyhedron must be provided in [quaternion](https://en.wikipedia.org/wiki/Quaternion) format.
 
